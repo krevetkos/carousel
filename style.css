@@ -1,0 +1,49 @@
+.carusel_container {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.car_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.car_item {
+    width: 24%;
+    height: 100%;
+}
+
+.car_img {
+    width: 100%;
+    height: 100%;
+}
+
+.left,
+.right {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    font-size: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.left:hover,
+.right:hover {
+    background-color: rgba(38, 193, 61, 0.5);
+    color: white;
+}
+
+.left {
+    left: -50px;
+}
+
+.right {
+    right: -50px;
+}
